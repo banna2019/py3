@@ -1,0 +1,16 @@
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'CPU jumps' -n 'Linux servers CPU jumps' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'Disk space usage /boot' -n 'Linux servers Disk space usage /boot' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'Network traffic on eth0' -n 'Linux servers Netowrk eth0' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'CPU load' -n 'Linux servers CPU load' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'Disk space usage /' -n 'Linux servers Disk space usage /' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'Memory usage' -n 'Linux servers Memory usage' -c 2
+
+python zabbix_screen_group.py -g 'Linux servers' -G 'CPU utilization' -n 'Linux servers CPU utilization' -c 2
+
+
